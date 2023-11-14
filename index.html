@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+    </head>
+    <body>
+      <div id="title-container">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">A survey form.</p>
+        </div>
+        <div>
+      <main>
+      <form id="survey-form">
+            <fieldset>
+            <label id="name-label">
+              Your name:
+              <input id="name" required type="text" placeholder="Please type your name here."/>
+              </label>
+                <label id="email-label">
+              Your email:
+              <input id="email" required type="email" placeholder="Please type your email here." />
+              </label>
+                <label id="number-label">
+              Your age:
+              <input id="number" required type="number" min="18" max="300" placeholder="Enter your age." />
+              </label>
+              <label for="user-referrer">
+              Referer:
+              </label>
+              <select required  type="select" id="dropdown"/>
+              <option>(Select One)</option>
+              <option>Friend</option>
+              <option>Search Engine</option>
+              <option>Other</option>
+              <option>None</option>
+              </select>
+              <label>Occupation: </label>
+              <input id="user-occupation" value ="occupation" required type="radio" name="occupation"/> <h4>Student</h4>
+              <input id="user-occupation" value= "occupation" required type="radio" name="occupation"/> <h4>N/A</h4>
+              <label>Terms: </label>
+              <input id="user-occupation" value ="terms" required type="checkbox" name="occupation"/> <h4>I understand.</h4>
+              <input id="user-occupation" value= "terms" required type="checkbox" name="occupation"/> <h4>I accept.</h4>
+              <label>Message: </label>
+              <textarea id="message" rows="3" cols="30" placeholder="I like the design..."></textarea>
+            </fieldset>
+              <input id="submit" type="submit" value="Submit">
+      </form>
+          </main>
+          </div>
+      </body>
+      <footer>
+        </footer>
+  </html>
