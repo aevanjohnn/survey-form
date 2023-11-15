@@ -44,6 +44,7 @@ input[type="submit"] {
   min-width: 300px;
   color: #FFCD4B;
   background-color: #FF7676;
+  border: none;
 }
 
 form {
@@ -64,6 +65,7 @@ input[type="radio"], input[type="checkbox"], h4 {
   display: inline;
 }
 
+/* For user messages. */
 textarea {
   margin: 10px 0 0 0;
   width: 100%;
