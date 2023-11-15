@@ -33,6 +33,7 @@ label {
   font-size: 1.5rem;
 }
 
+/* Submit button */
 input[type="submit"] {
   font-family: 'VT323', monospace;
   display: block;
@@ -41,6 +42,8 @@ input[type="submit"] {
   height: 2em;
   font-size: 1.1rem;
   min-width: 300px;
+  color: #FFCD4B;
+  background-color: #FF7676;
 }
 
 form {
