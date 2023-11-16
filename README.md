@@ -1,4 +1,4 @@
-# :mag: **Survey Form**
+## :mag: **Survey Form**
 My freeCodeCamp's Responsive Web Design certification project.
 
 ---
